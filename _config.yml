@@ -30,7 +30,8 @@ twitter_username: jalejr
 github_username:  jalejr
 
 # Build settings
-theme: minima
+# Removed minima theme as now not gem based theme
+# theme: minima
 plugins:
   - jekyll-feed
 
