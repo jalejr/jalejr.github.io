@@ -6,6 +6,15 @@ p, blockquote, pre, hr,
 dl, dd, ol, ul, figure {
   margin: 0;
   padding: 0;
+  // Border should be more selective with where it's put but here for now
+  border: 2px solid white;
+}
+
+canvas {
+  z-index: -5;
+  position: fixed;
+  top: 0;
+  left: 0;
 }
 
 
